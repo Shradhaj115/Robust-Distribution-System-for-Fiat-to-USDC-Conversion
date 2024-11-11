@@ -1,0 +1,33 @@
+{
+    "name": "fiat-to-usdc-backend",
+    "version": "1.0.0",
+    "description": "Backend for Fiat-to-USDC Conversion and Distribution System",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "mongoose": "^7.1.0",
+      "dotenv": "^16.0.3",
+      "web3": "^1.8.1",
+      "body-parser": "^1.20.2",
+      "cors": "^2.8.5"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    },
+    "keywords": [
+      "fiat",
+      "usdc",
+      "conversion",
+      "distribution",
+      "backend",
+      "express",
+      "mongodb"
+    ],
+    "author": "Your Name",
+    "license": "ISC"
+  }
+  
